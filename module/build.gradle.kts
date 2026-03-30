@@ -19,6 +19,9 @@ android {
         ndk {
             abiFilters.addAll(abiList)
         }
+        /*ndk {
+            abiFilters += listOf("arm64-v8a")
+        }*/
         externalNativeBuild {
             /*
             ndkBuild {
